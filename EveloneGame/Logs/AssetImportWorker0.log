@@ -15,7 +15,7 @@ C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62273
+62561
 Successfully changed project path to: C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame
 C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22588] Host "[IP] 100.83.72.59 [Port] 0 [Flags] 2 [Guid] 3339571156 [EditorId] 3339571156 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DKDU0V4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22760] Host "[IP] 100.83.72.59 [Port] 0 [Flags] 2 [Guid] 4141448376 [EditorId] 4141448376 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DKDU0V4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22588] Host "[IP] 100.83.72.59 [Port] 0 [Flags] 2 [Guid] 3339571156 [EditorId] 3339571156 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DKDU0V4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22760] Host "[IP] 100.83.72.59 [Port] 0 [Flags] 2 [Guid] 4141448376 [EditorId] 4141448376 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DKDU0V4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 6.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
 [Subsystems] Discovering subsystems at path E:/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'E:/2022.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'E:/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002939 seconds.
-- Loaded All Assemblies, in  0.334 seconds
+Registered in 0.003228 seconds.
+- Loaded All Assemblies, in  0.320 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.271 seconds
-Domain Reload Profiling: 605ms
-	BeginReloadAssembly (90ms)
+- Finished resetting the current domain, in  0.275 seconds
+Domain Reload Profiling: 594ms
+	BeginReloadAssembly (85ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (145ms)
-		LoadAssemblies (89ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (84ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (129ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (123ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (272ms)
+	FinalizeReload (275ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (211ms)
+		SetupLoadedEditorAssemblies (214ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (143ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,97 +116,52 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.726 seconds
-Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.643 seconds
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.546 seconds
-Domain Reload Profiling: 1271ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  0.452 seconds
+Domain Reload Profiling: 1093ms
+	BeginReloadAssembly (119ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (493ms)
-		LoadAssemblies (244ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (445ms)
+		LoadAssemblies (225ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (316ms)
-			TypeCache.Refresh (296ms)
-				TypeCache.ScanAssembly (282ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (251ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (546ms)
+	FinalizeReload (452ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (375ms)
+		SetupLoadedEditorAssemblies (317ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (283ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.5 KB). Loaded Objects now: 3544.
-Memory consumption went from 125.8 MB to 125.7 MB.
-Total: 2.783300 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.208000 ms MarkObjects: 2.237400 ms  DeleteObjects: 0.086900 ms)
+Unloading 31 unused Assets / (57.0 KB). Loaded Objects now: 3544.
+Memory consumption went from 125.9 MB to 125.9 MB.
+Total: 2.759700 ms (FindLiveObjects: 0.232600 ms CreateObjectMapping: 0.195900 ms MarkObjects: 2.249200 ms  DeleteObjects: 0.081300 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1508445.057351 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(384dcb8295d159340b3fa89118a6c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(384dcb8295d159340b3fa89118a6c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d2b7b26f9606452278feb62ba28a46') in 0.002174 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.979490 seconds.
-  path: Assets/Scenes/MainScene.unity
-  artifactKey: Guid(5d6d840ab2007b646953820c4e59857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainScene.unity using Guid(5d6d840ab2007b646953820c4e59857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1333b78a4e1b61b372aea617b4eb47d') in 0.000423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.901251 seconds.
-  path: Assets/Scenes/StartScene.unity
-  artifactKey: Guid(ea5c770c58b939d4cb2737c915e085c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/StartScene.unity using Guid(ea5c770c58b939d4cb2737c915e085c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f09c1120333cca5486011575dc2b91') in 0.000421 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3544.
-Memory consumption went from 77.0 MB to 77.0 MB.
-Total: 2.867200 ms (FindLiveObjects: 0.291800 ms CreateObjectMapping: 0.236800 ms MarkObjects: 2.318500 ms  DeleteObjects: 0.019200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -219,3 +174,320 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1514902.648293 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(9e88a19b54afe444b9870ac94359a098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(9e88a19b54afe444b9870ac94359a098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48729cbfdfdb7121340de8fd9d66957') in 0.012689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.827648 seconds.
+  path: Assets/Texturas
+  artifactKey: Guid(ad246d788da5ea640a1feaf9e11e25d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas using Guid(ad246d788da5ea640a1feaf9e11e25d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7108f985959352fea43bf1d71740440e') in 0.000447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.241692 seconds.
+  path: Assets/Texturas/7e5ba9d051cd506a5a288dde0964f362.jpg
+  artifactKey: Guid(c24b6f6bbaef89441b22460b29f81556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/7e5ba9d051cd506a5a288dde0964f362.jpg using Guid(c24b6f6bbaef89441b22460b29f81556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c5372f0081989f1687851a663dba05') in 0.037363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 124.126263 seconds.
+  path: Assets/Texturas/4746b600ded94503fbeacdd5272cd461--bricks.jpg
+  artifactKey: Guid(1f8b08df442a51a4cbb5d86be8525de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/4746b600ded94503fbeacdd5272cd461--bricks.jpg using Guid(1f8b08df442a51a4cbb5d86be8525de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5beb37fdae1cc37946911b0d336feba') in 0.008302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 97.726947 seconds.
+  path: Assets/Texturas/depositphotos_24861233-stock-photo-wood-parquet-floor-seamless-texture.jpg
+  artifactKey: Guid(4dca69382bb556f439a4e688b5a3d0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/depositphotos_24861233-stock-photo-wood-parquet-floor-seamless-texture.jpg using Guid(4dca69382bb556f439a4e688b5a3d0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689b6ba24a998502baefe0edd7aeccdd') in 0.008979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 241.690824 seconds.
+  path: Assets/Texturas/1671663325_kalix-club-p-besshovnaya-tekstura-steni-pinterest-1.jpg
+  artifactKey: Guid(c7c1a641b5e30ff41bbe67e4a7be40f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/1671663325_kalix-club-p-besshovnaya-tekstura-steni-pinterest-1.jpg using Guid(c7c1a641b5e30ff41bbe67e4a7be40f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f77ac8f33f9a02d360dd126e263d775') in 0.009518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.348071 seconds.
+  path: Assets/Texturas/1662996577_1-phonoteka-org-p-besshovnaya-tekstura-shtukaturka-pinterest-1.jpg
+  artifactKey: Guid(dc18cb3bb5741ca4591856671abc456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texturas/1662996577_1-phonoteka-org-p-besshovnaya-tekstura-shtukaturka-pinterest-1.jpg using Guid(dc18cb3bb5741ca4591856671abc456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86be5d60ff62353a81e7d551ebc84e9a') in 0.007210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 296.068336 seconds.
+  path: Assets/3DModels
+  artifactKey: Guid(01e1f787c0d4802488eb5339b41136a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels using Guid(01e1f787c0d4802488eb5339b41136a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f828ff6965d4a450d68ba10b6856b1a') in 0.000713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 37.499003 seconds.
+  path: Assets/3DModels/computer-desk
+  artifactKey: Guid(867bac9deef66a64c958928357c26de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk using Guid(867bac9deef66a64c958928357c26de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1b870b917bc2b62dc007a000195307') in 0.000406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.397020 seconds.
+  path: Assets/3DModels/computer-desk/source
+  artifactKey: Guid(cfe0c5c8ef25df2478bfffb5b5823aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/source using Guid(cfe0c5c8ef25df2478bfffb5b5823aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36284cb7266303ce8b7d61001f7db254') in 0.000381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.980056 seconds.
+  path: Assets/3DModels/computer-desk/textures
+  artifactKey: Guid(7c93900cd3b680c4fb3a54118f312309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures using Guid(7c93900cd3b680c4fb3a54118f312309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4974afc24005be94b9eca818ef23f5') in 0.000668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.061214 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_1remote_BaseColor.1001.png
+  artifactKey: Guid(986142120dc42bd49a0b1a446b431749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_1remote_BaseColor.1001.png using Guid(986142120dc42bd49a0b1a446b431749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e20ecc750a441d3c80897cd2a16481') in 0.017278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_a_BaseColor.1001.png
+  artifactKey: Guid(79a4e8dc72e9eee4bbde9e81abd0764f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_a_BaseColor.1001.png using Guid(79a4e8dc72e9eee4bbde9e81abd0764f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b5af72f128a454b468a251d33ee931') in 0.008979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_button_Metallic.1001.png
+  artifactKey: Guid(d4e669e8db097e54eb13f466e1bbc498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_button_Metallic.1001.png using Guid(d4e669e8db097e54eb13f466e1bbc498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1295151c98d074046eba658de885d8c6') in 0.007606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_remote_BaseColor.1001.png
+  artifactKey: Guid(5d317cedafbe8df40b5f3031066750fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_remote_BaseColor.1001.png using Guid(5d317cedafbe8df40b5f3031066750fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41d628d8c9581e68cee149feb26df89') in 0.008419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_remote_Roughness.1001.png
+  artifactKey: Guid(a59294ff2bf80ef4e8ee5ebb63d86cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_remote_Roughness.1001.png using Guid(a59294ff2bf80ef4e8ee5ebb63d86cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84a58d02c24a56c3bf52193278b5d2b') in 0.009534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_2remote_BaseColor.1001.png
+  artifactKey: Guid(e006b7f4415f31b49b11e26d89537eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_2remote_BaseColor.1001.png using Guid(e006b7f4415f31b49b11e26d89537eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96e139284539bd5bd26b295f88d91af') in 0.009617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_button_BaseColor.1001.png
+  artifactKey: Guid(f4b3f6c81c95a1547affe7bcd2e9496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_button_BaseColor.1001.png using Guid(f4b3f6c81c95a1547affe7bcd2e9496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77274da33dfdd0c586db0c1af72ff9f5') in 0.010012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_1remote_Roughness.1001.png
+  artifactKey: Guid(973945b9b9e2b5b4d93f2ff44109dc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_1remote_Roughness.1001.png using Guid(973945b9b9e2b5b4d93f2ff44109dc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82659b8f54be761520d0679057d3cc06') in 0.009408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_c_Normal.1001.png
+  artifactKey: Guid(d939d340bad70944abf1c381f75338a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_c_Normal.1001.png using Guid(d939d340bad70944abf1c381f75338a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c67e65ac5ceac7097361ac60fb829f') in 0.009763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_top_BaseColor.1001.png
+  artifactKey: Guid(34e1cb674dcda704289c1e65c38c357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_top_BaseColor.1001.png using Guid(34e1cb674dcda704289c1e65c38c357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671a26b643f0881c18a9f58a241af45f') in 0.009250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_b_Normal.1001.png
+  artifactKey: Guid(6d52f1eccb437a546a7955e1dbd7aa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_b_Normal.1001.png using Guid(6d52f1eccb437a546a7955e1dbd7aa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b95aabaa2b41f93925ffdadc26b370') in 0.010787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_Metallic.1001.png
+  artifactKey: Guid(ace2515fe62ca514abf9e05559b31185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_Metallic.1001.png using Guid(ace2515fe62ca514abf9e05559b31185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd265749b7097f8c074c0880c905fe7') in 0.008779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_button_Normal.1001.png
+  artifactKey: Guid(49cd3483b9192134682863a52aad2243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_button_Normal.1001.png using Guid(49cd3483b9192134682863a52aad2243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ee873dbc670551abb492d5e564ff8a') in 0.009305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_BaseColor.1001.png
+  artifactKey: Guid(b04080636807ad84fb9fefa5175e8420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_BaseColor.1001.png using Guid(b04080636807ad84fb9fefa5175e8420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b454ce93afeb1812761dea7b9020f121') in 0.008726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_a_Normal.1001.png
+  artifactKey: Guid(08659dd01f0c0694c9c744d02a13a3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_a_Normal.1001.png using Guid(08659dd01f0c0694c9c744d02a13a3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2808295be3e3f8c6817dfad522db1b63') in 0.008925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_top_Roughness.1001.png
+  artifactKey: Guid(16d22ad085d59ce49b69a2929c63b38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_top_Roughness.1001.png using Guid(16d22ad085d59ce49b69a2929c63b38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df2a1d4fc1af782390cc018b43f91a3') in 0.010420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_a_Roughness.1001.png
+  artifactKey: Guid(68ebc188e85bd9b439f36734c3031d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_a_Roughness.1001.png using Guid(68ebc188e85bd9b439f36734c3031d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292fb350f69855fe0572b81ee182be49') in 0.008882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_b_BaseColor.1001.png
+  artifactKey: Guid(e18a1e407859e97469fa746a901ce531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_b_BaseColor.1001.png using Guid(e18a1e407859e97469fa746a901ce531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c0f4fd12a4d84aef658fdfffddb4e9') in 0.008712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_top_Metallic.1001.png
+  artifactKey: Guid(80a73e8346d8ebd44ace699a98fefb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_top_Metallic.1001.png using Guid(80a73e8346d8ebd44ace699a98fefb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f793cfdb7156ed47a02d486d753fbe') in 0.008409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_b_Metallic.1001.png
+  artifactKey: Guid(0d6dceeb541c7f047b3dabf622a62272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_b_Metallic.1001.png using Guid(0d6dceeb541c7f047b3dabf622a62272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b3314a5b1296931ed163e59ab09c47') in 0.009043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_c_Roughness.1001.png
+  artifactKey: Guid(ffe7c15d9b63d544186bc25a61254702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_c_Roughness.1001.png using Guid(ffe7c15d9b63d544186bc25a61254702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cfb50d4df5a5c24391556168dabd85') in 0.007901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 96.834376 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_2remote_Normal.1001.png
+  artifactKey: Guid(fb4d27e2550921641bc00ac4d98b7f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_2remote_Normal.1001.png using Guid(fb4d27e2550921641bc00ac4d98b7f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0402cc602797af8db6c935bcda5c49') in 0.059052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_c_Normal.1001.png
+  artifactKey: Guid(d939d340bad70944abf1c381f75338a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_c_Normal.1001.png using Guid(d939d340bad70944abf1c381f75338a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b676fd4733b6ce87090a8eef6be4b0') in 0.010079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_remote_Normal.1001.png
+  artifactKey: Guid(1dee8876062b99e489b94781a681559e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_remote_Normal.1001.png using Guid(1dee8876062b99e489b94781a681559e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eecd3bbba972cba0f225866c53deb55') in 0.010186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_Normal.1001.png
+  artifactKey: Guid(554458863c19ab24383c5e9e3512b9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_Normal.1001.png using Guid(554458863c19ab24383c5e9e3512b9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa02c5767ed505202848edb5a037a77c') in 0.009710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_b_Normal.1001.png
+  artifactKey: Guid(6d52f1eccb437a546a7955e1dbd7aa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_b_Normal.1001.png using Guid(6d52f1eccb437a546a7955e1dbd7aa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cedfa60b20a2100478336b43ca862b8') in 0.011576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_a_Normal.1001.png
+  artifactKey: Guid(08659dd01f0c0694c9c744d02a13a3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_a_Normal.1001.png using Guid(08659dd01f0c0694c9c744d02a13a3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffa6de2d8670d3e97027c2b31aec687') in 0.009141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3DModels/computer-desk/textures/comp_desk_top_Normal.1001.png
+  artifactKey: Guid(03c565a3e2393aa4696e21ee633cc658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/computer-desk/textures/comp_desk_top_Normal.1001.png using Guid(03c565a3e2393aa4696e21ee633cc658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e0ffe2d7891aad06e4ceb062c55eb6') in 0.008208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

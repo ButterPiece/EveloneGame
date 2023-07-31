@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 503, y: 271}
+  m_MaxSize: {x: 16192, y: 12117}
   vertical: 0
-  controlID: 88
+  controlID: 16
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,10 +220,10 @@ MonoBehaviour:
     y: 0
     width: 1466
     height: 947
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
+  m_MinSize: {x: 403, y: 271}
+  m_MaxSize: {x: 8096, y: 12117}
   vertical: 1
-  controlID: 38
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 39
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Texturas
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -329,16 +329,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Texturas
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\ButterPiece\EveloneGame\EveloneGame
+  m_LastProjectPath: C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 101e0000
-    m_LastClickedID: 7696
-    m_ExpandedIDs: 000000003c59000000ca9a3b
+    m_SelectedIDs: 48590000
+    m_LastClickedID: 22856
+    m_ExpandedIDs: 00000000325900006e590000725900007a590000125a00001a5a0000765b0000aa5b0000ae5b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000032590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -505,10 +505,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 44590000
+      scrollPos: {x: 0, y: 41}
+      m_SelectedIDs: 48590000
       m_LastClickedID: 0
-      m_ExpandedIDs: 48f7ffff90f7ffff0af8ffff14fbffff
+      m_ExpandedIDs: 04b3ffff86b4ffffe8b7fffff2b7fffffcb7fffffeb7ffffa2c9ffff10d1fffffad4ffff2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -570,8 +570,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -171, y: -26}
+      snapOffset: {x: -171, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -838,6 +838,19 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: UnityEditor.SceneViewCameraOverlay
+      index: 8
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     m_OverlaysVisible: 1
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
@@ -849,9 +862,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 437.17236, y: 0.00668329, z: 584.469}
     speed: 2
-    m_Value: {x: 29.881952, y: 5.515705, z: 22.299366}
+    m_Value: {x: 437.17236, y: 0.00668329, z: 584.469}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -897,9 +910,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: -0.1437853, y: -0.24137682, z: 0.03611234, w: -0.9589807}
     speed: 2
-    m_Value: {x: 0.07263975, y: 0.5040848, z: -0.042600106, w: 0.8595403}
+    m_Value: {x: -0.14384757, y: -0.23995188, z: 0.035898685, w: -0.95939684}
   m_Size:
     m_Target: 10
     speed: 2
@@ -1046,10 +1059,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 634
+    width: 1465
+    height: 365
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
