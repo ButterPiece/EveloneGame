@@ -23,8 +23,11 @@ public class CameraRotationStart : MonoBehaviour
         yRotation+=x;
         xRotation-=y;
         xRotation=Mathf.Clamp(xRotation,-20f,30f);
-        yRotation=Mathf.Clamp(xRotation,100f,300f);
-        transform.rotation=Quaternion.Euler(xRotation,yRotation,0);
+        if(yRotation<=50f&&yRotation>=-50f)
+        {
+            transform.rotation=Quaternion.Euler(xRotation,yRotation,0);
 
+        }
+        
     }
 }
