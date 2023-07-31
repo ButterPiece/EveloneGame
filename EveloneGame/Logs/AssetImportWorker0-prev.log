@@ -24,7 +24,11 @@ C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 55838
+=======
+52539
+>>>>>>> Stashed changes
 Successfully changed project path to: C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame
 C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame
 =======
@@ -69,6 +73,7 @@ C:/Users/perep/Desktop/EveloneGame/EveloneGame
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Player connection [29520] Host "[IP] 100.83.72.59 [Port] 0 [Flags] 2 [Guid] 605352992 [EditorId] 605352992 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DKDU0V4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 =======
 Player connection [19724] Host "[IP] 100.83.72.59 [Port] 0 [Flags] 2 [Guid] 3415840345 [EditorId] 3415840345 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DKDU0V4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
@@ -77,6 +82,13 @@ Player connection [19724] Host "[IP] 100.83.72.59 [Port] 0 [Flags] 2 [Guid] 3415
 Player connection [19724] Host "[IP] 100.83.72.59 [Port] 0 [Flags] 2 [Guid] 3415840345 [EditorId] 3415840345 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DKDU0V4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 6.64 ms, found 3 plugins.
+=======
+Player connection [29520] Host "[IP] 100.83.72.59 [Port] 0 [Flags] 2 [Guid] 605352992 [EditorId] 605352992 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DKDU0V4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29520] Host "[IP] 100.83.72.59 [Port] 0 [Flags] 2 [Guid] 605352992 [EditorId] 605352992 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DKDU0V4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.35 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
 [Subsystems] Discovering subsystems at path E:/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -92,6 +104,7 @@ Initialize mono
 Mono path[0] = 'E:/2022.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'E:/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -101,6 +114,16 @@ Registered in 0.003100 seconds.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 <<<<<<< Updated upstream
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003104 seconds.
+- Loaded All Assemblies, in  0.314 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+>>>>>>> Stashed changes
 - Finished resetting the current domain, in  0.274 seconds
 Domain Reload Profiling: 588ms
 	BeginReloadAssembly (83ms)
@@ -139,10 +162,13 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling: 1141ms
 	BeginReloadAssembly (179ms)
 >>>>>>> Stashed changes
+<<<<<<< Updated upstream
 =======
 - Finished resetting the current domain, in  0.289 seconds
 Domain Reload Profiling: 632ms
 	BeginReloadAssembly (89ms)
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
@@ -151,11 +177,15 @@ Domain Reload Profiling: 632ms
 		CreateAndSetChildDomain (1ms)
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (49ms)
 	LoadAllAssembliesAndSetupDomain (136ms)
 		LoadAssemblies (82ms)
+<<<<<<< Updated upstream
 =======
 	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (11ms)
@@ -178,6 +208,22 @@ Domain Reload Profiling: 632ms
 			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
 <<<<<<< Updated upstream
+=======
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (274ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (214ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+>>>>>>> Stashed changes
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (141ms)
 			ProcessInitializeOnLoadMethodAttributes (56ms)
@@ -205,10 +251,13 @@ Domain Reload Profiling: 632ms
 			ProcessInitializeOnLoadAttributes (252ms)
 			ProcessInitializeOnLoadMethodAttributes (109ms)
 >>>>>>> Stashed changes
+<<<<<<< Updated upstream
 =======
 			BeforeProcessingInitializeOnLoad (3ms)
 			ProcessInitializeOnLoadAttributes (145ms)
 			ProcessInitializeOnLoadMethodAttributes (52ms)
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -220,6 +269,7 @@ Begin MonoManager ReloadAssembly
 <<<<<<< Updated upstream
 Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.776 seconds
 Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
@@ -262,6 +312,49 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 second
 Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <<<<<<< Updated upstream
+=======
+- Loaded All Assemblies, in  0.805 seconds
+Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.562 seconds
+Domain Reload Profiling: 1366ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (576ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (371ms)
+			TypeCache.Refresh (347ms)
+				TypeCache.ScanAssembly (333ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (563ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (387ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+>>>>>>> Stashed changes
 Unloading 3441 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 36 unused Assets / (107.5 KB). Loaded Objects now: 3919.
 Memory consumption went from 140.0 MB to 139.9 MB.
@@ -316,11 +409,14 @@ Unloading 36 unused Assets / (99.4 KB). Loaded Objects now: 3919.
 Memory consumption went from 139.8 MB to 139.7 MB.
 Total: 5.922300 ms (FindLiveObjects: 0.432700 ms CreateObjectMapping: 0.270900 ms MarkObjects: 4.997400 ms  DeleteObjects: 0.220100 ms)
 >>>>>>> Stashed changes
+<<<<<<< Updated upstream
 =======
 Unloading 3442 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 36 unused Assets / (114.6 KB). Loaded Objects now: 3920.
 Memory consumption went from 140.1 MB to 140.0 MB.
 Total: 3.326900 ms (FindLiveObjects: 0.273000 ms CreateObjectMapping: 0.315600 ms MarkObjects: 2.568700 ms  DeleteObjects: 0.168700 ms)
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -336,6 +432,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Import Request.
   Time since last request: 1532393.758803 seconds.
   path: Assets/Scenes/MainScene.unity
@@ -359,6 +456,15 @@ Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 2 unused Assets / (59.5 KB). Loaded Objects now: 3920.
 Memory consumption went from 81.3 MB to 81.3 MB.
 Total: 5.228800 ms (FindLiveObjects: 0.626600 ms CreateObjectMapping: 0.429500 ms MarkObjects: 4.085100 ms  DeleteObjects: 0.086300 ms)
+=======
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (55.2 KB). Loaded Objects now: 3919.
+Memory consumption went from 81.9 MB to 81.8 MB.
+Total: 3.491200 ms (FindLiveObjects: 0.301400 ms CreateObjectMapping: 0.259100 ms MarkObjects: 2.828700 ms  DeleteObjects: 0.101200 ms)
+>>>>>>> Stashed changes
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -379,10 +485,14 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
   Time since last request: 1527840.571253 seconds.
   path: Assets/Scenes/StartScene.unity
   artifactKey: Guid(ea5c770c58b939d4cb2737c915e085c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/StartScene.unity using Guid(ea5c770c58b939d4cb2737c915e085c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58fc3877d7f7912e5fdb669fbeb2f9d') in 0.003310 seconds
+<<<<<<< Updated upstream
 =======
   Time since last request: 1297.302810 seconds.
   path: Assets/Scripts
@@ -397,6 +507,8 @@ Received Import Request.
   artifactKey: Guid(7bcaefbedebf7fb4ebd9665fe710af49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/CameraRotationStart.cs using Guid(7bcaefbedebf7fb4ebd9665fe710af49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e3ca2f3ce8e510ac5fa3e9312dc5bf') in 0.000464 seconds
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
@@ -404,6 +516,7 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.670 seconds
 Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
@@ -1165,10 +1278,20 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.759 seconds
 Domain Reload Profiling: 1405ms
 	BeginReloadAssembly (144ms)
+=======
+- Loaded All Assemblies, in  0.704 seconds
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.802 seconds
+Domain Reload Profiling: 1506ms
+	BeginReloadAssembly (147ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (38ms)
 	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (11ms)
@@ -1191,10 +1314,35 @@ Domain Reload Profiling: 1405ms
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (61ms)
 			ProcessInitializeOnLoadAttributes (254ms)
+=======
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (477ms)
+		LoadAssemblies (240ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (297ms)
+				TypeCache.ScanAssembly (284ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (803ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (358ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+>>>>>>> Stashed changes
 			ProcessInitializeOnLoadMethodAttributes (21ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
+<<<<<<< Updated upstream
 		AwakeInstancesAfterBackupRestoration (7ms)
 Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -1202,6 +1350,15 @@ Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (79.2 KB). Loaded Objects now: 3935.
 Memory consumption went from 134.6 MB to 134.6 MB.
 Total: 2.716000 ms (FindLiveObjects: 0.253600 ms CreateObjectMapping: 0.197300 ms MarkObjects: 2.173000 ms  DeleteObjects: 0.091300 ms)
+=======
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (80.5 KB). Loaded Objects now: 3922.
+Memory consumption went from 134.1 MB to 134.0 MB.
+Total: 3.118200 ms (FindLiveObjects: 0.286100 ms CreateObjectMapping: 0.286300 ms MarkObjects: 2.434900 ms  DeleteObjects: 0.110100 ms)
+>>>>>>> Stashed changes
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1212,7 +1369,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+<<<<<<< Updated upstream
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+=======
+>>>>>>> Stashed changes
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -1222,6 +1382,7 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.617 seconds
 Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
@@ -1266,6 +1427,52 @@ Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (95.4 KB). Loaded Objects now: 3938.
 Memory consumption went from 134.7 MB to 134.6 MB.
 Total: 3.077500 ms (FindLiveObjects: 0.269800 ms CreateObjectMapping: 0.263600 ms MarkObjects: 2.433700 ms  DeleteObjects: 0.109200 ms)
+=======
+- Loaded All Assemblies, in  0.830 seconds
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.874 seconds
+Domain Reload Profiling: 1704ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (548ms)
+		LoadAssemblies (320ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (306ms)
+			TypeCache.Refresh (300ms)
+				TypeCache.ScanAssembly (282ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (874ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (372ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (72.5 KB). Loaded Objects now: 3925.
+Memory consumption went from 134.3 MB to 134.3 MB.
+Total: 4.709900 ms (FindLiveObjects: 0.277000 ms CreateObjectMapping: 0.263700 ms MarkObjects: 3.952600 ms  DeleteObjects: 0.215300 ms)
+>>>>>>> Stashed changes
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1276,7 +1483,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+<<<<<<< Updated upstream
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+=======
+>>>>>>> Stashed changes
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -1286,17 +1496,27 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.633 seconds
 Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.754 seconds
 Domain Reload Profiling: 1385ms
+=======
+- Loaded All Assemblies, in  0.657 seconds
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.766 seconds
+Domain Reload Profiling: 1423ms
+>>>>>>> Stashed changes
 	BeginReloadAssembly (138ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (38ms)
 	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (11ms)
@@ -1313,10 +1533,29 @@ Domain Reload Profiling: 1385ms
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (352ms)
+=======
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (442ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (267ms)
+				TypeCache.ScanAssembly (257ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (767ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (353ms)
+>>>>>>> Stashed changes
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
+<<<<<<< Updated upstream
 			BeforeProcessingInitializeOnLoad (65ms)
 			ProcessInitializeOnLoadAttributes (255ms)
 			ProcessInitializeOnLoadMethodAttributes (21ms)
@@ -1330,6 +1569,21 @@ Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (87.2 KB). Loaded Objects now: 3941.
 Memory consumption went from 134.7 MB to 134.6 MB.
 Total: 3.142600 ms (FindLiveObjects: 0.297500 ms CreateObjectMapping: 0.259200 ms MarkObjects: 2.472300 ms  DeleteObjects: 0.112200 ms)
+=======
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (72.4 KB). Loaded Objects now: 3928.
+Memory consumption went from 134.3 MB to 134.3 MB.
+Total: 3.103600 ms (FindLiveObjects: 0.270800 ms CreateObjectMapping: 0.264900 ms MarkObjects: 2.446800 ms  DeleteObjects: 0.120000 ms)
+>>>>>>> Stashed changes
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1340,13 +1594,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+<<<<<<< Updated upstream
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+=======
+>>>>>>> Stashed changes
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 Received Import Request.
   Time since last request: 4151.095957 seconds.
   path: Assets/New Terrain 1.asset
@@ -1402,12 +1662,16 @@ Start importing Assets/Scripts/CameraRotationStart.cs using Guid(7bcaefbedebf7fb
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.618 seconds
 Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
@@ -1415,10 +1679,20 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.709 seconds
 Domain Reload Profiling: 1326ms
 	BeginReloadAssembly (132ms)
+=======
+- Loaded All Assemblies, in  0.637 seconds
+Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.742 seconds
+Domain Reload Profiling: 1378ms
+	BeginReloadAssembly (140ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (32ms)
 	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (14ms)
@@ -1449,6 +1723,37 @@ Domain Reload Profiling: 1326ms
 Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 <<<<<<< Updated upstream
+=======
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (427ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (252ms)
+				TypeCache.ScanAssembly (242ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (743ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (330ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (241ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+>>>>>>> Stashed changes
 Unloading 3415 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (80.6 KB). Loaded Objects now: 3933.
 Memory consumption went from 134.1 MB to 134.0 MB.
@@ -1559,11 +1864,14 @@ Unloading 24 unused Assets / (80.5 KB). Loaded Objects now: 3967.
 Memory consumption went from 139.0 MB to 138.9 MB.
 Total: 4.945300 ms (FindLiveObjects: 0.421400 ms CreateObjectMapping: 0.290200 ms MarkObjects: 4.024900 ms  DeleteObjects: 0.207200 ms)
 >>>>>>> Stashed changes
+<<<<<<< Updated upstream
 =======
 Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (87.2 KB). Loaded Objects now: 3944.
 Memory consumption went from 134.7 MB to 134.6 MB.
 Total: 2.889900 ms (FindLiveObjects: 0.252800 ms CreateObjectMapping: 0.252800 ms MarkObjects: 2.278000 ms  DeleteObjects: 0.105400 ms)
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 Prepare: number of updated asset objects reloaded= 0
@@ -1575,7 +1883,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+<<<<<<< Updated upstream
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+=======
+>>>>>>> Stashed changes
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -1583,6 +1894,9 @@ AssetImportParameters requested are different than current active one (requested
 <<<<<<< Updated upstream
 ========================================================================
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 Received Import Request.
   Time since last request: 5.628326 seconds.
   path: Assets/Scripts/CameraRotationStart.cs
@@ -1592,6 +1906,7 @@ Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 =======
 >>>>>>> Stashed changes
+<<<<<<< Updated upstream
 =======
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -3640,4 +3955,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
