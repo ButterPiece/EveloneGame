@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16293 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'ru' Physical Memory: 16312 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\2022.3.5f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame
+C:/Users/perep/Desktop/EveloneGame/EveloneGame
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-62561
-Successfully changed project path to: C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame
-C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame
+61013
+Successfully changed project path to: C:/Users/perep/Desktop/EveloneGame/EveloneGame
+C:/Users/perep/Desktop/EveloneGame/EveloneGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,64 +49,66 @@ C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17344] Host "[IP] 100.83.72.59 [Port] 0 [Flags] 2 [Guid] 4059324681 [EditorId] 4059324681 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DKDU0V4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24368] Host "[IP] 192.168.0.185 [Port] 0 [Flags] 2 [Guid] 2695679360 [EditorId] 2695679360 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5KBTOT6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17344] Host "[IP] 100.83.72.59 [Port] 0 [Flags] 2 [Guid] 4059324681 [EditorId] 4059324681 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DKDU0V4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24368] Host "[IP] 192.168.0.185 [Port] 0 [Flags] 2 [Guid] 2695679360 [EditorId] 2695679360 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5KBTOT6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 7.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 33.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
-[Subsystems] Discovering subsystems at path E:/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/perep/Desktop/EveloneGame/EveloneGame/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
-    Vendor:   NVIDIA
-    VRAM:     1976 MB
-    Driver:   31.0.15.3179
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   31.0.12027.9001
 Initialize mono
-Mono path[0] = 'E:/2022.3.5f1/Editor/Data/Managed'
-Mono path[1] = 'E:/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002891 seconds.
-- Loaded All Assemblies, in  0.291 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.020387 seconds.
+- Loaded All Assemblies, in  0.632 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.247 seconds
-Domain Reload Profiling: 538ms
-	BeginReloadAssembly (80ms)
+- Finished resetting the current domain, in  0.425 seconds
+Domain Reload Profiling: 1053ms
+	BeginReloadAssembly (208ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (124ms)
-		LoadAssemblies (79ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (203ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (121ms)
-				TypeCache.ScanAssembly (110ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (247ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (188ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (426ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (193ms)
+		SetupLoadedEditorAssemblies (329ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (132ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (211ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -114,53 +116,54 @@ Domain Reload Profiling: 538ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.605 seconds
-Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\perep\Desktop\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\perep\Desktop\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.359 seconds
+Refreshing native plugins compatible for Editor in 6.90 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.447 seconds
-Domain Reload Profiling: 1052ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.841 seconds
+Domain Reload Profiling: 2194ms
+	BeginReloadAssembly (239ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (414ms)
-		LoadAssemblies (206ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (926ms)
+		LoadAssemblies (495ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (264ms)
-			TypeCache.Refresh (248ms)
-				TypeCache.ScanAssembly (238ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (447ms)
+		AnalyzeDomain (543ms)
+			TypeCache.Refresh (504ms)
+				TypeCache.ScanAssembly (486ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (842ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (314ms)
+		SetupLoadedEditorAssemblies (577ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (234ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (404ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (21ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 5.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (57.0 KB). Loaded Objects now: 3544.
-Memory consumption went from 125.9 MB to 125.9 MB.
-Total: 4.328500 ms (FindLiveObjects: 0.366900 ms CreateObjectMapping: 0.237000 ms MarkObjects: 3.606800 ms  DeleteObjects: 0.116700 ms)
+Unloading 3441 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (99.4 KB). Loaded Objects now: 3919.
+Memory consumption went from 139.8 MB to 139.7 MB.
+Total: 4.824600 ms (FindLiveObjects: 0.411700 ms CreateObjectMapping: 0.241000 ms MarkObjects: 3.979800 ms  DeleteObjects: 0.190700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -175,135 +178,66 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1515859.748497 seconds.
-  path: Assets/3DModels/computer-desk/textures/comp_desk_1remote_Normal.1001.png
-  artifactKey: Guid(23583c2ea31584a4089b39da30e563e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/computer-desk/textures/comp_desk_1remote_Normal.1001.png using Guid(23583c2ea31584a4089b39da30e563e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bcb57c009e3f9f77975f03de1f5093') in 0.104184 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/3DModels/computer-desk/textures/comp_desk_button_Normal.1001.png
-  artifactKey: Guid(49cd3483b9192134682863a52aad2243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/computer-desk/textures/comp_desk_button_Normal.1001.png using Guid(49cd3483b9192134682863a52aad2243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3da823ad7a8581c7a2a338cd8262238') in 0.014926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.415570 seconds.
-  path: Assets/3DModels/computer-desk/source/Textures
-  artifactKey: Guid(380e2c1a172f1ed41a7794d98b1128cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/computer-desk/source/Textures using Guid(380e2c1a172f1ed41a7794d98b1128cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718366a2b16dd90cf414916b055ce005') in 0.000538 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.274171 seconds.
-  path: Assets/3DModels/computer-desk/source/Textures/FBX
-  artifactKey: Guid(d2c23f32b9ed80f45b294ccdb1594955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/computer-desk/source/Textures/FBX using Guid(d2c23f32b9ed80f45b294ccdb1594955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb21ed6011b26a503028f698923378a4') in 0.000397 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.817571 seconds.
-  path: Assets/3DModels/computer-desk/source/Textures/FBX/FBX
-  artifactKey: Guid(97f2a74c0b331b4428426b0f907ef966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/computer-desk/source/Textures/FBX/FBX using Guid(97f2a74c0b331b4428426b0f907ef966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc99bead40d9c3d3197805db1c5608d') in 0.000399 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.064289 seconds.
-  path: Assets/3DModels/computer-desk/source/Textures/FBX/FBX/comp_desk.fbx
-  artifactKey: Guid(86e68caa9c5e958459390e62940637b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/computer-desk/source/Textures/FBX/FBX/comp_desk.fbx using Guid(86e68caa9c5e958459390e62940637b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab7e76b03747bc74fc0a3a511020ce1') in 0.374115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
-========================================================================
-Received Import Request.
-  Time since last request: 220.337257 seconds.
-  path: Assets/3DModels/techy-wallpaper-computer-monitor
-  artifactKey: Guid(1f5d65a02150ee44682a66baa8e2d7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/techy-wallpaper-computer-monitor using Guid(1f5d65a02150ee44682a66baa8e2d7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f9581aff62c88122f7634659a2a76c') in 0.000959 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.136745 seconds.
-  path: Assets/3DModels/techy-wallpaper-computer-monitor/source
-  artifactKey: Guid(7d9eec48fff8a5448a90e75228fc4d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/techy-wallpaper-computer-monitor/source using Guid(7d9eec48fff8a5448a90e75228fc4d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04563811bbbdd0c0bb6ba177882bcc5') in 0.000403 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.742333 seconds.
-  path: Assets/3DModels/techy-wallpaper-computer-monitor/source/monitor_export_obj_upload3.glb
-  artifactKey: Guid(f13e3300f662fe14a8c8bddd4b80181f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/techy-wallpaper-computer-monitor/source/monitor_export_obj_upload3.glb using Guid(f13e3300f662fe14a8c8bddd4b80181f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef297b6ece9da02fec7cc4ef8d869780') in 0.000974 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 4.984882 seconds.
-  path: Assets/3DModels/techy-wallpaper-computer-monitor/textures
-  artifactKey: Guid(c81110c932b3afa4eab8f559a97399ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/techy-wallpaper-computer-monitor/textures using Guid(c81110c932b3afa4eab8f559a97399ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4adb1ee044ed73a523d17cbe04d0a7') in 0.000393 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.084659 seconds.
-  path: Assets/3DModels/techy-wallpaper-computer-monitor/textures/black_metallic_roughness_0@channels=B.png
-  artifactKey: Guid(981d7c7f2309cc247b1de2e90ed4b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/techy-wallpaper-computer-monitor/textures/black_metallic_roughness_0@channels=B.png using Guid(981d7c7f2309cc247b1de2e90ed4b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81506b861c9e5904fc3e0ca1ffb04a31') in 0.008731 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/3DModels/techy-wallpaper-computer-monitor/textures/monitor_stand_roughness_3@channels=G.png
-  artifactKey: Guid(a6165b71bdb50a9468ff3b2476e1ee94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/techy-wallpaper-computer-monitor/textures/monitor_stand_roughness_3@channels=G.png using Guid(a6165b71bdb50a9468ff3b2476e1ee94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fe9b9fb579fb863b1ad861341f7da2') in 0.007657 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/3DModels/techy-wallpaper-computer-monitor/textures/monitor_stand_roughness_3@channels=B.png
-  artifactKey: Guid(b697af270991e524d8c6209fdac66975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/techy-wallpaper-computer-monitor/textures/monitor_stand_roughness_3@channels=B.png using Guid(b697af270991e524d8c6209fdac66975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ac021909288f49380ef08690fcc3a8') in 0.006886 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/3DModels/techy-wallpaper-computer-monitor/textures/monitor_body_roughness.png
-  artifactKey: Guid(629df56124ad78d469106ca2dbfadd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/techy-wallpaper-computer-monitor/textures/monitor_body_roughness.png using Guid(629df56124ad78d469106ca2dbfadd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a2006c51146fd40340e1bcd57faebb') in 0.006804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/3DModels/techy-wallpaper-computer-monitor/textures/screen_roughness_2@channels=G.png
-  artifactKey: Guid(8d42639135e998e4a95691bb41210639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/techy-wallpaper-computer-monitor/textures/screen_roughness_2@channels=G.png using Guid(8d42639135e998e4a95691bb41210639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3f6e7a9d36c6730ebdd12a9793e82e') in 0.006551 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/3DModels/techy-wallpaper-computer-monitor/textures/monitor_screen_paint_edited_1.png
-  artifactKey: Guid(2c39d0aa2d41a1446a1dc87411fa5e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels/techy-wallpaper-computer-monitor/textures/monitor_screen_paint_edited_1.png using Guid(2c39d0aa2d41a1446a1dc87411fa5e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06ffbe5180d38cdf33f34e8ed3fb19f') in 0.008838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\perep\Desktop\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\perep\Desktop\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.271 seconds
+Refreshing native plugins compatible for Editor in 6.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.706 seconds
+Domain Reload Profiling: 2973ms
+	BeginReloadAssembly (279ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (844ms)
+		LoadAssemblies (488ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (492ms)
+			TypeCache.Refresh (483ms)
+				TypeCache.ScanAssembly (465ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1707ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (669ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (466ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Refreshing native plugins compatible for Editor in 7.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (80.5 KB). Loaded Objects now: 3922.
+Memory consumption went from 134.1 MB to 134.1 MB.
+Total: 5.281100 ms (FindLiveObjects: 0.369600 ms CreateObjectMapping: 0.147200 ms MarkObjects: 4.604600 ms  DeleteObjects: 0.158200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
