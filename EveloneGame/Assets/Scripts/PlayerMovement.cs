@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float groundDrag;
 
+<<<<<<< Updated upstream
     public float jumpForce;
     public float jumpCooldown;
     public float airMultiplier;
@@ -17,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
 
+=======
+>>>>>>> Stashed changes
     [Header("Ground Check")]
     public float playerHeight;
     public LayerMask whatIsGround;
@@ -38,8 +41,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+<<<<<<< Updated upstream
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
+=======
+        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0/.5 +0.2f, whatIsGround);
+>>>>>>> Stashed changes
         MyInput();
         SpeedControl();
 
