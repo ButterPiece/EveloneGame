@@ -359,6 +359,7 @@
 "Assets/Scripts/BasicMovement.cs"
 "Assets/Scripts/CameraRotationStart.cs"
 "Assets/Scripts/MoveCam.cs"
+"Assets/Scripts/PlayerMovement.cs"
 -langversion:9.0
 
 /deterministic

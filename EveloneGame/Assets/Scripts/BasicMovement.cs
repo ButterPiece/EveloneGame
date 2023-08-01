@@ -25,7 +25,7 @@ public class BasicMovement : MonoBehaviour
         float mouseY = Input.GetAxisRaw("MouseY")* Time.deltaTime*sensY;
 
         yRotation += mouseX;
-        xRotation += mouseY;
+        xRotation -= mouseY;
 
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
