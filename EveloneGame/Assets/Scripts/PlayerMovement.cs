@@ -9,17 +9,14 @@ public class PlayerMovement : MonoBehaviour
 
     public float groundDrag;
 
-<<<<<<< Updated upstream
-    public float jumpForce;
-    public float jumpCooldown;
+    //public float jumpForce;
+    //public float jumpCooldown;
     public float airMultiplier;
-    bool readyToJump;
+    //bool readyToJump;
 
-    [Header("Keybinds")]
-    public KeyCode jumpKey = KeyCode.Space;
+    //[Header("Keybinds")]
+    //public KeyCode jumpKey = KeyCode.Space;
 
-=======
->>>>>>> Stashed changes
     [Header("Ground Check")]
     public float playerHeight;
     public LayerMask whatIsGround;
@@ -41,19 +38,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-<<<<<<< Updated upstream
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
-=======
-        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0/.5 +0.2f, whatIsGround);
->>>>>>> Stashed changes
+
         MyInput();
         SpeedControl();
 
         if (grounded)
         {
             rigidbody.drag = groundDrag;
-            readyToJump = true;
+            //readyToJump = true;
         }
         else
         {
@@ -70,13 +64,13 @@ public class PlayerMovement : MonoBehaviour
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
-        if(Input.GetKey(jumpKey) && readyToJump && grounded)
-        {
-            readyToJump = false;
+        //if(Input.GetKey(jumpKey) && readyToJump && grounded)
+        //{
+            //readyToJump = false;
 
-            Jump();
-            Invoke(nameof(ResetJump), jumpCooldown);
-        }
+            //Jump();
+            //Invoke(nameof(ResetJump), jumpCooldown);
+        //}
     }
     private void MovePlayer()
     {
@@ -99,15 +93,15 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void Jump()
-    {
-        rigidbody.velocity = new Vector3(rigidbody.velocity.x, 0f, rigidbody.velocity.z);
+    //private void Jump()
+    //{
+        //rigidbody.velocity = new Vector3(rigidbody.velocity.x, 0f, rigidbody.velocity.z);
 
-        rigidbody.AddForce(transform.up * jumpForce, ForceMode.Impulse);
-    }
+        //rigidbody.AddForce(transform.up * jumpForce, ForceMode.Impulse);
+    //}
 
-    private void ResetJump()
-    {
-        readyToJump = true;
-    }
+    //private void ResetJump()
+    //{
+        //readyToJump = true;
+    //}
 }
