@@ -1,0 +1,280 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16293 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49772
+Successfully changed project path to: C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame
+C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23520] Host "[IP] 100.83.72.59 [Port] 0 [Flags] 2 [Guid] 1271190745 [EditorId] 1271190745 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DKDU0V4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23520] Host "[IP] 100.83.72.59 [Port] 0 [Flags] 2 [Guid] 1271190745 [EditorId] 1271190745 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DKDU0V4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path E:/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/NePC/Desktop/ButterPiece/EveloneGame/EveloneGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
+    Vendor:   NVIDIA
+    VRAM:     1976 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'E:/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'E:/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003190 seconds.
+- Loaded All Assemblies, in  0.302 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.262 seconds
+Domain Reload Profiling: 564ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (79ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (116ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (262ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (202ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (135ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\NePC\Desktop\ButterPiece\EveloneGame\EveloneGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.671 seconds
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.485 seconds
+Domain Reload Profiling: 1155ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (467ms)
+		LoadAssemblies (226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (299ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (267ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (486ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (339ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3445 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (99.5 KB). Loaded Objects now: 3923.
+Memory consumption went from 140.1 MB to 140.0 MB.
+Total: 3.529100 ms (FindLiveObjects: 0.286600 ms CreateObjectMapping: 0.454400 ms MarkObjects: 2.645500 ms  DeleteObjects: 0.141700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1592589.794770 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(384dcb8295d159340b3fa89118a6c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(384dcb8295d159340b3fa89118a6c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d2b7b26f9606452278feb62ba28a46') in 0.002084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.825211 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(5d6d840ab2007b646953820c4e59857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(5d6d840ab2007b646953820c4e59857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81767e0bf8e760afd2699467e4f4a614') in 0.000424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 121.261168 seconds.
+  path: Assets/3DModels
+  artifactKey: Guid(01e1f787c0d4802488eb5339b41136a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels using Guid(01e1f787c0d4802488eb5339b41136a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f828ff6965d4a450d68ba10b6856b1a') in 0.000451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.891724 seconds.
+  path: Assets/3DModels/fab.fbx
+  artifactKey: Guid(05dc3a96f71f60e44b617cd9cdd3503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/fab.fbx using Guid(05dc3a96f71f60e44b617cd9cdd3503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c1fbe55b1edd2a40c810dd7b724293') in 0.163398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 58.967607 seconds.
+  path: Assets/3DModels/old-doors-pack
+  artifactKey: Guid(6dabdb0f487f9f9409184cef67e6e92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/old-doors-pack using Guid(6dabdb0f487f9f9409184cef67e6e92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3117a5e7052b4d84f5a808f2ad47eab8') in 0.000674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.392021 seconds.
+  path: Assets/3DModels/old-doors-pack/source
+  artifactKey: Guid(de0b89b29315d394f9cf37893d36370a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/old-doors-pack/source using Guid(de0b89b29315d394f9cf37893d36370a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d17f3820d21115df145266f9509f3b') in 0.000547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066818 seconds.
+  path: Assets/3DModels/old-doors-pack/source/fab.fbx
+  artifactKey: Guid(1a6124af9f120f946ab30f797fea2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/old-doors-pack/source/fab.fbx using Guid(1a6124af9f120f946ab30f797fea2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f35e17806ae71ebad67d4c7e9381952') in 0.054520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 147.705669 seconds.
+  path: Assets/3DModels/old-doors-pack/textures
+  artifactKey: Guid(3c9a1ff12a9bedb47b23603591c50f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/old-doors-pack/textures using Guid(3c9a1ff12a9bedb47b23603591c50f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e640265fef390614ef86ae28d8395786') in 0.000648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052869 seconds.
+  path: Assets/3DModels/old-doors-pack/textures/DefaultMaterial_albedo.jpg
+  artifactKey: Guid(c26c4ed06f0c4e34bad63bbf392cf846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/old-doors-pack/textures/DefaultMaterial_albedo.jpg using Guid(c26c4ed06f0c4e34bad63bbf392cf846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c59845c2b6caeb4714e4a00d730102d') in 0.023762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3DModels/old-doors-pack/textures/DefaultMaterial_metallic.jpg
+  artifactKey: Guid(d89788214efd75c43a1f5111b2428f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/old-doors-pack/textures/DefaultMaterial_metallic.jpg using Guid(d89788214efd75c43a1f5111b2428f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fcc4efb9fff3747f0c57a35eab4488') in 0.008451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3DModels/old-doors-pack/textures/DefaultMaterial_roughness.jpg
+  artifactKey: Guid(e92bfa1735e5fbd4991ae58dba806c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/old-doors-pack/textures/DefaultMaterial_roughness.jpg using Guid(e92bfa1735e5fbd4991ae58dba806c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb17023971d09427f52721293c8e02ec') in 0.009830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3DModels/old-doors-pack/textures/DefaultMaterial_normal.png
+  artifactKey: Guid(5b233db2862210f4288fbe396afdb4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/old-doors-pack/textures/DefaultMaterial_normal.png using Guid(5b233db2862210f4288fbe396afdb4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17938e491cec6b55df7f9835683ad68') in 0.010000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3DModels/old-doors-pack/textures/DefaultMaterial_opacity.jpg
+  artifactKey: Guid(61115dd9446923548bb8f20ccd6141b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/old-doors-pack/textures/DefaultMaterial_opacity.jpg using Guid(61115dd9446923548bb8f20ccd6141b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6640aa4c82bd15e79c9a27ae51d783') in 0.010384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
